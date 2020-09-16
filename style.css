@@ -1,0 +1,48 @@
+/* 
+[] display: inline-block/ block
+[] padding
+[] margin
+[] divs 
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+}
+
+#container {
+    background-color: #EEEEEE;
+    width: 970px;
+    padding: 50px;
+}
+.top-content-box {
+    width: 46.5%;
+    height: 350px;
+    background-color: orange;
+    display: inline-block;
+}
+.right-top-block {
+    margin-left: 50px;
+    background-color: yellow;
+}
+#mid-content {
+    background-color: orange;
+    padding: 25px;
+    margin-top: 50px;
+}
+.inner-mid-content {
+    background-color: purple;
+    width: 50%;
+    height: 100px;
+    margin-bottom: 25px;
+}
+footer {
+    background-color: blue;
+    height:  100px;
+    margin-top: 50px;
+}
+
